@@ -1,0 +1,12 @@
+=====================================================
+ Reporte de estado SNOWSTORM - FHIR - País: CHILE
+ Fecha: Thu Oct 16 06:35:03 PM UTC 2025
+=====================================================
+
+[INFO] Base: https://hcsba-api.hcsba.cl/terminologico/1/fhir
+[FAIL] CodeSystem SNOMED NO encontrado (http://snomed.info/sct)
+[INFO] Base: https://hcsba-api.hcsba.cl/terminologico/1/fhir
+[FAIL] El servidor no responde /metadata correctamente
+[FAIL] /metadata no responde en https://hcsba-api.hcsba.cl/terminologico/1/fhir
+
+✅ Revisión completada para CHILE
