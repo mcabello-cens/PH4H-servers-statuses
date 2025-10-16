@@ -1,10 +1,9 @@
 =====================================================
  Reporte de estado SNOWSTORM - FHIR - País: REPDOM
- Fecha: Tue Oct 14 12:04:55 PM UTC 2025
+ Fecha: Thu Oct 16 03:56:59 PM UTC 2025
 =====================================================
 
 [INFO] Base: http://154.38.173.158:8180/fhir
-[OK] metadata
 [OK] CodeSystem SNOMED presente (http://snomed.info/sct)
 [OK] CodeSystem CIE10 presente (http://hl7.org/fhir/sid/icd-10)
 [OK] CodeSystem CIE11 presente (http://id.who.int/icd/release/11/mms)

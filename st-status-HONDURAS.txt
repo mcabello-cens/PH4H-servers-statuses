@@ -1,10 +1,9 @@
 =====================================================
  Reporte de estado SNOWSTORM - FHIR - País: HONDURAS
- Fecha: Mon Oct 13 05:47:50 PM UTC 2025
+ Fecha: Thu Oct 16 03:56:57 PM UTC 2025
 =====================================================
 
 [INFO] Base: http://181.210.30.59:8180/fhir
-[OK] metadata
 [OK] CodeSystem SNOMED presente (http://snomed.info/sct)
 [OK] CodeSystem CIE10 presente (http://hl7.org/fhir/sid/icd-10)
 [OK] CodeSystem CIE11 presente (http://id.who.int/icd/release/11/mms)
