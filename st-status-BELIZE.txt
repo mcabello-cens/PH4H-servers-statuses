@@ -1,0 +1,12 @@
+=====================================================
+ Reporte de estado SNOWSTORM - FHIR - País: BELIZE
+ Fecha: Thu Oct 16 03:42:26 PM UTC 2025
+=====================================================
+
+[INFO] Base: http://190.93.82.203:8180/fhir/CodeSystem
+[FAIL] CodeSystem SNOMED NO encontrado (http://snomed.info/sct)
+[INFO] Base: http://190.93.82.203:8180/fhir/CodeSystem
+[FAIL] El servidor no responde /metadata correctamente
+[FAIL] /metadata no responde en http://190.93.82.203:8180/fhir/CodeSystem
+
+✅ Revisión completada para BELIZE
