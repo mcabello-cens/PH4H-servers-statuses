@@ -1,0 +1,12 @@
+=====================================================
+ Reporte de estado SNOWSTORM - FHIR - País: PROXY-PARAGUAY
+ Fecha: Thu Oct 16 01:28:33 PM UTC 2025
+=====================================================
+
+[INFO] Base: https://gazelle.racsel.org:11040
+[FAIL] CodeSystem SNOMED NO encontrado (http://snomed.info/sct)
+[INFO] Base: https://gazelle.racsel.org:11040
+[FAIL] El servidor no responde /metadata correctamente
+[FAIL] /metadata no responde en https://gazelle.racsel.org:11040
+
+✅ Revisión completada para PROXY-PARAGUAY

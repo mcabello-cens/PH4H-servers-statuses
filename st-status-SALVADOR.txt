@@ -1,0 +1,12 @@
+=====================================================
+ Reporte de estado SNOWSTORM - FHIR - País: SALVADOR
+ Fecha: Thu Oct 16 01:40:48 PM UTC 2025
+=====================================================
+
+[INFO] Base: http://lacpass-dev.salud.gob.sv:8080/snowstorm/fhir/CodeSystem
+[FAIL] CodeSystem SNOMED NO encontrado (http://snomed.info/sct)
+[INFO] Base: http://lacpass-dev.salud.gob.sv:8080/snowstorm/fhir/CodeSystem
+[FAIL] El servidor no responde /metadata correctamente
+[FAIL] /metadata no responde en http://lacpass-dev.salud.gob.sv:8080/snowstorm/fhir/CodeSystem
+
+✅ Revisión completada para SALVADOR

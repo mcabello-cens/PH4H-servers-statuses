@@ -1,0 +1,22 @@
+=====================================================
+ Reporte de estado SNOWSTORM - FHIR - País: COSTARICA
+ Fecha: Tue Oct 14 03:18:26 PM UTC 2025
+=====================================================
+
+[INFO] Base: http://201.191.3.209:8180/fhir
+[OK] metadata
+[OK] CodeSystem SNOMED presente (http://snomed.info/sct)
+[FAIL] CodeSystem CIE10 NO encontrado (http://hl7.org/fhir/sid/icd-10)
+[INFO] Base: http://201.191.3.209:8180/fhir
+[OK] metadata
+[INFO] Listando ValueSet…
+[OK] ValueSet listados: 0
+[FAIL] Se encontraron 0 ValueSet(s); se requieren exactamente 24.
+[OK] metadata en http://201.191.3.209:8180/fhir
+[INFO] Listando ConceptMap (SIN filtros)…
+[OK] ConceptMaps listados: 8
+[INFO] ConceptMaps con name iniciando en 'VS': 0
+--------------------------------------------
+[RESUMEN] VS traducidos: OK=0 | WARN=0 | FAIL=0
+
+✅ Revisión completada para COSTARICA

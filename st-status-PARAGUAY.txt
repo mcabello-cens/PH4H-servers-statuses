@@ -1,0 +1,12 @@
+=====================================================
+ Reporte de estado SNOWSTORM - FHIR - País: PARAGUAY
+ Fecha: Thu Oct 16 01:25:42 PM UTC 2025
+=====================================================
+
+[INFO] Base: https://snowstorm.mspbs.gov.py/fhir/CodeSystem
+[FAIL] CodeSystem SNOMED NO encontrado (http://snomed.info/sct)
+[INFO] Base: https://snowstorm.mspbs.gov.py/fhir/CodeSystem
+[FAIL] El servidor no responde /metadata correctamente
+[FAIL] /metadata no responde en https://snowstorm.mspbs.gov.py/fhir/CodeSystem
+
+✅ Revisión completada para PARAGUAY

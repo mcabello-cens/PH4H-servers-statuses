@@ -1,0 +1,26 @@
+=====================================================
+ Reporte de estado SNOWSTORM - FHIR - País: BAHAMAS
+ Fecha: Tue Oct 14 12:14:11 PM UTC 2025
+=====================================================
+
+[INFO] Base: http://157.245.123.204:8180/fhir
+[OK] metadata
+[OK] CodeSystem SNOMED presente (http://snomed.info/sct)
+[OK] CodeSystem CIE10 presente (http://hl7.org/fhir/sid/icd-10)
+[OK] CodeSystem CIE11 presente (http://id.who.int/icd/release/11/mms)
+[OK] CodeSystem LOCAL presente (http://node-BS.org/terminology)
+[OK] CodeSystem RACSEL presente (http://racsel.org/connectathon)
+[FAIL] CodeSystem PREQUAL NO encontrado (http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIDs)
+[INFO] Base: http://157.245.123.204:8180/fhir
+[OK] metadata
+[INFO] Listando ValueSet…
+[OK] ValueSet listados: 23
+[FAIL] Se encontraron 23 ValueSet(s); se requieren exactamente 24.
+[OK] metadata en http://157.245.123.204:8180/fhir
+[INFO] Listando ConceptMap (SIN filtros)…
+[OK] ConceptMaps listados: 20
+[INFO] ConceptMaps con name iniciando en 'VS': 0
+--------------------------------------------
+[RESUMEN] VS traducidos: OK=0 | WARN=0 | FAIL=0
+
+✅ Revisión completada para BAHAMAS

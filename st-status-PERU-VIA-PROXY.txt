@@ -1,0 +1,12 @@
+=====================================================
+ Reporte de estado SNOWSTORM - FHIR - País: PERU-VIA-PROXY
+ Fecha: Wed Oct 15 02:45:51 PM UTC 2025
+=====================================================
+
+[INFO] Base: http://gazelle.racsel.org:11041/fhir
+[FAIL] no responde /metadata
+[INFO] Base: http://gazelle.racsel.org:11041/fhir
+[FAIL] El servidor no responde /metadata correctamente
+[FAIL] /metadata no responde en http://gazelle.racsel.org:11041/fhir
+
+✅ Revisión completada para PERU-VIA-PROXY
