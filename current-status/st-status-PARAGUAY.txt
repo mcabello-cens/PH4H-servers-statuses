@@ -1,6 +1,6 @@
 =====================================================
  Reporte de estado SNOWSTORM - FHIR - País: PARAGUAY
- Fecha: Thu Oct 16 03:56:57 PM UTC 2025
+ Fecha: Thu Oct 16 06:35:03 PM UTC 2025
 =====================================================
 
 [INFO] Base: https://snowstorm.mspbs.gov.py/fhir

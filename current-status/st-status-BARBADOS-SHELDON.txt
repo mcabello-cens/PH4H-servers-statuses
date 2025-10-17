@@ -1,6 +1,6 @@
 =====================================================
  Reporte de estado SNOWSTORM - FHIR - País: BARBADOS-SHELDON
- Fecha: Thu Oct 16 04:51:08 PM UTC 2025
+ Fecha: Thu Oct 16 06:35:03 PM UTC 2025
 =====================================================
 
 [INFO] Base: http://tst.regunit.health.gov.bb/term/fhir
@@ -13,10 +13,7 @@
 [OK] $lookup SNOMED (96309000)
 [OK] $lookup CIE10 (E79.0)
 [OK] $lookup CIE11 (XM0N24)
-[OK] $lookup LOCAL (C003)
-[OK] $lookup RACSEL (A10)
-[OK] $lookup PREQUAL (PolioVaccineInactivatedIProduct8b13b5fcf5e9268b345775be7c3f077c)
-[OK] Validación de CodeSystems y $lookup completada.
+[FAIL] $lookup LOCAL (http://node-acme.org/terminology|0)
 [INFO] Base: http://tst.regunit.health.gov.bb/term/fhir
 [OK] metadata
 [INFO] Listando ValueSet…

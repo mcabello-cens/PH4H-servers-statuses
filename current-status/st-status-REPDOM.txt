@@ -1,6 +1,6 @@
 =====================================================
  Reporte de estado SNOWSTORM - FHIR - País: REPDOM
- Fecha: Thu Oct 16 03:56:59 PM UTC 2025
+ Fecha: Thu Oct 16 06:35:03 PM UTC 2025
 =====================================================
 
 [INFO] Base: http://154.38.173.158:8180/fhir
