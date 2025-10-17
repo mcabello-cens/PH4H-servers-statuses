@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-TC-vaccines",
+  "url": "http://giis.org/semantic/ValueSet/TC-vaccines",
+  "version": "2025-04-28",
+  "name": "TcVaccines",
+  "title": "Vaccines for Caicos & Turks",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://giis.org/semantic/CodeSystem/thesaurus",
+        "concept": [
+          {
+            "code": "MP-056",
+            "display": "DTwP-Hib"
+          },
+          {
+            "code": "MP-059",
+            "display": "COVID19-mRNA"
+          },
+          {
+            "code": "MP-048",
+            "display": "MenACYWX"
+          },
+          {
+            "code": "MP-049",
+            "display": "MenA-10"
+          },
+          {
+            "code": "MP-027",
+            "display": "JEV-inactivated"
+          }
+        ]
+      }
+    ]
+  },
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "TC",
+          "display": "Caicos & Turks"
+        }
+      ]
+    }
+  ]
+}

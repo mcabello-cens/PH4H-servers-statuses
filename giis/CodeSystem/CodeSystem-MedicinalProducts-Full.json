@@ -1,0 +1,4272 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "national-thesaurus-medicinal-products",
+  "url": "http://giis.org/semantic/CodeSystem/thesaurus",
+  "version": "2025-04-28",
+  "name": "ThesaurusMedicinalProducts",
+  "title": "Vaccine Thesaurus – Medicinal Products",
+  "status": "active",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 65,
+  "concept": [
+    {
+      "code": "MP-002",
+      "display": "BCG-A",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine bacillus calmette-guérin (live attenuated) 0,1 mL/dosis (intradermal) powder for solution for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "bcg vaccine intradermal (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "adut BCG vaccine"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "BCG"
+        },
+        {
+          "code": "strength",
+          "valueString": "0,1 mL/dose"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intradermal"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "yes"
+        },
+        {
+          "code": "diluent",
+          "valueString": "0,9% sodium chloride"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-001",
+      "display": "BCG-P",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine bacillus calmette-guérin (live attenuated) [0,05 mL/dosis] (intradermal) powder for solution for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "bcg vaccine intradermal (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "pediatric BCG vaccine"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "BCG"
+        },
+        {
+          "code": "strength",
+          "valueString": "0,05 mL/dose"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intradermal"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "yes"
+        },
+        {
+          "code": "diluent",
+          "valueString": "0,9% sodium chloride"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        },
+        {
+          "code": "exit-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-061",
+      "display": "COVID19-INACT",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine sars-cov-2 whole virus (inactivated) [0,5 mL/dose] suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "covid-19 inactivated virus vaccine intramuscular"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "COVID19-INACT"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "COVID19"
+        },
+        {
+          "code": "strength",
+          "valueString": "0,5 mL/dose"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-059",
+      "display": "COVID19-mRNA",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine sars-cov-2 spike glycoprotein mrna (inactivated) [0,5 mL/dose] suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "covid-19 mrna vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "COVID19-mRNA"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "COVID19"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-062",
+      "display": "COVID19-PS",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine sars-cov-2 spike glycoprotein recombinant (inactivated) [0,5 mL/dose] suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "covid-19 protein subunit vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "COVID19-PS"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "COVID19"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-060",
+      "display": "COVID19-VV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine sars-cov-2 spike glycoprotein viral vector (non-replicating) (inactivated) suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "covid-19 viral vector vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "COVID19-VV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "COVID19"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-007",
+      "display": "DENV4-Live-IM",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine dengue virus type 1,2,3,4 (live attenuated) 0,5 mL/dosis (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "dengue tetravalent  vaccine intramuscular (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "DENV4-Live-IM"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "DEN"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-006",
+      "display": "DENV4-Live-SC",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine dengue virus type 1,2,3,4 (live attenuated) 0,5 mL/dosis (subcutaneous) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "dengue tetravalent vaccine  subcutaneous (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "DENV4-Live-SC"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "DEN"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "subcutaneous"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-034",
+      "display": "DT",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine diphtheria toxoid + tetanus toxoid (inactivated) (intramuscular) [0,5 mL/dose] suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "diphtheria and tetanus vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "DT"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "DT"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-053",
+      "display": "DTaP",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine diphtheria toxoid (inactivated) + tetanus toxoid (inactivated) + bordetella pertussis acellular component (inactivated) (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "diphtheria tetanus and acellular pertussis vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "DTaP"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "DTP"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-054",
+      "display": "DTaP-HepB-Hib-IPV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine diphtheria toxoid + tetanus toxoid + bordetella pertussis acellular component + hepatitis b surface antigen + haemophilus influenzae type b capsular polysaccharide conjugated + poliovirus type 1,2,3 (inactivated) (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "dtap-hepb-hib-ipv hexavalent vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "DTaP-HepB-Hib-IPV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "DTP-HepB-Hib-IPV"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-055",
+      "display": "DTwP",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine diphtheria toxoid + tetanus toxoid + bordetella pertussis whole cell (inactivated) (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "dtwp vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "DTwP"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "DTP"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-057",
+      "display": "DTwP-HepB-Hib",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine diphtheria toxoid + tetanus toxoid + bordetella pertussis whole cell + hepatitis b surface antigen + haemophilus influenzae type b capsular polysaccharide conjugated (inactivated) (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "diphtheria tetanus whole cell pertussis hepatitis b and haemophilus influenzae type b vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "DTwP-HepB-Hib"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "DTP-HepB-Hib"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-058",
+      "display": "DTwP-HepB-Hib-IPV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine diphtheria toxoid + tetanus toxoid + bordetella pertussis whole cell + hepatitis b surface antigen + haemophilus influenzae type b capsular polysaccharide conjugated + poliovirus type 1,2,3 (inactivated) (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "dtwp-hepb-hib-ipv hexavalent vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "DTwP-HepB-Hib-IPV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "DTP-HepB-Hib-IPV"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-056",
+      "display": "DTwP-Hib",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine diphtheria toxoid + tetanus toxoid + bordetella pertussis whole cell (inactivated) + haemophilus influenzae type b capsular polysaccharide conjugated (inactivated) (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "diphtheria tetanus whole cell pertussis and haemophilus influenzae type b vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "DTwP-Hib"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "DTP-Hib"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-064",
+      "display": "EBOV-Live",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine ebola virus glycoprotein live attenuated viral vector [1 mL/dose] (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "ebola live attenuated viral vector vaccine intramuscular"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "EBOV-Live"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "EBOV"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-065",
+      "display": "EBOV-VV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine ebola virus glycoprotein viral vector (non-replicating) (inactivated) [0,5 mL/dose] suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "ebola viral vector vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "EBOV-VV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "EBOV"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-009",
+      "display": "HepA-A",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine hepatitis A virus (inactivated) 1440 ELISA units/1 mL (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "hepatitis A vaccine (inactivated)  1440 ELISA units"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "HepA-adult"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "HepA"
+        },
+        {
+          "code": "strength",
+          "valueString": "1440 ELISA units"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-008",
+      "display": "HepA-P",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine hepatitis A virus  (inactivated) 720 ELISA units/0,5 mL (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "hepatitis A vaccine  (inactivated) 720 ELISA units"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "HepA-pediatric"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "HepA"
+        },
+        {
+          "code": "strength",
+          "valueString": "720 ELISA units"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-011",
+      "display": "HepB-A",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine hepatitis B surface antigen (inactivated) 20 ug (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "hepatitis B vaccine (inactivated) 20 ug"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "HepB-adult"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "HepB"
+        },
+        {
+          "code": "strength",
+          "valueString": "20 ug/dosis"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-010",
+      "display": "HepB-P",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine hepatitis B surface antigen (inactivated) 10 ug (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "hepatitis B vaccine  (inactivated) 10 ug"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "HepB-pediatric"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "HepB"
+        },
+        {
+          "code": "strength",
+          "valueString": "10 ug/dosis"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-035",
+      "display": "Hib",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine haemophilus influenzae type b capsular polysaccharide conjugated (inactivated) suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "hib conjugate vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "Hib"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "Hib"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-012",
+      "display": "HPV-2",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine human papillomavirus type 16,18 (inactivated) [0,5 mL/dose] (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "hpv bivalent vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "HPV-2"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "HPV"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-013",
+      "display": "HPV-4",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine human papillomavirus type 6,11,16,18 (inactivated) [0,5 mL/dose] (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "hpv quadrivalent vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "HPV-4"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "HPV"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-014",
+      "display": "HPV-9",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine human papillomavirus type 6,11,16,18,31,33,45,52,58 (inactivated) [0,5 mL/dose] (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "hpv nonavalent vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "HPV-9"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "HPV"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-036",
+      "display": "INF-P-H5N1",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine influenza virus a (h5n1) (inactivated) suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "pandemic influenza vaccine h5n1 intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "INF-P-H5N1"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "INF"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-037",
+      "display": "INF-S-QV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine influenza virus a (h1n1)+ vaccine influenza virus a (h3n2) + vaccine influenza virus b victoria lineage + vaccine influenza virus b yamagata lineage (inactivated) (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "seasonal influenza quadrivalent vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "INF-S-QV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "INF"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-038",
+      "display": "INF-S-TV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine influenza virus a (h1n1) + vaccine influenza virus a (h3n2) + vaccine influenza virus b (inactivated) (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "seasonal influenza trivalent vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "INF-S-TV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "INF"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-027",
+      "display": "JEV-inactivated",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine japanese encephalitis virus (inactivated) [0,5 mL/dose] suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "japanese encephalitis vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "JEV-inactivated"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "JEV"
+        },
+        {
+          "code": "strength",
+          "valueString": "????"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-028",
+      "display": "JEV-live",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine japanese encephalitis virus sa14-14-2 strain (live attenuated) [0,5 mL/dose] suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "japanese encephalitis vaccine sa14-14-2 intramuscular (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "JEV-live"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "JEV"
+        },
+        {
+          "code": "strength",
+          "valueString": "????"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-029",
+      "display": "MAL-R",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine plasmodium falciparum circumsporozoite protein recombinant (inactivated) [0,5 mL/dose] suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "malaria vaccine recombinant intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "MAL-R"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "MAL"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-049",
+      "display": "MenA-10",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine neisseria meningitidis serogroup a capsular polysaccharide conjugated 10 ug (intramuscular) powder for solution for injection (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "meningococcal a conjugate vaccine 10 ug intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "MenA-10"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "Men"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-050",
+      "display": "MenA-5",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine neisseria meningitidis serogroup a capsular polysaccharide conjugated 5 ug (intramuscular) powder for solution for injection (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "meningococcal a conjugate vaccine 5 ug intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "MenA-5"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "Men"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "pediatric"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-052",
+      "display": "MenACYW-135-TT",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine neisseria meningitidis serogroup a, c, y, w135 (inactivated) conjugated to tetanus toxoid (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "meningococcal acyw-135 tetanus toxoid conjugate vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "MenACYW-135-TT"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "Men"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-051",
+      "display": "MenACYW135",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine neisseria meningitidis serogroup a, c, y, w135 (inactivated) (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "meningococcal acyw-135 conjugate vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "MenACYW135"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "Men"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-048",
+      "display": "MenACYWX",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine neisseria meningitidis serogroup a,c, y, w, x (inactivated) (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "meningococcal acywx conjugate vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "MenACYWX"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "Men"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-032",
+      "display": "MMR",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine measles virus + vaccine mumps virus + vaccine rubella virus (live attenuated) [0,5 mL/dose] (subcutaneous) powder for solution for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "measles mumps and rubella vaccine subcutaneous (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "MMR"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "MMR"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "subcutaneous"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "yes"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-023",
+      "display": "MPX-SC-NR",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine vaccinia virus ankara strain ≥1×10⁸ TCID₅₀ (subcutaneous) suspension for injection (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "mpox vaccine non-replicating subcutaneous (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "MPX-SC-NR"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "MPX"
+        },
+        {
+          "code": "strength",
+          "valueString": "≥1×10⁸ TCID₅₀"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "subcutaneous"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-022",
+      "display": "MPXV-ID-R",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine vaccinia virus ankara strain ≥1×10⁸ TCID₅₀ (intradermal) suspension for injection (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "mpox vaccine intradermal (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "MPXV-ID-R"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "MPXV"
+        },
+        {
+          "code": "strength",
+          "valueString": "≥1×10⁸ TCID₅₀"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intradermal"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-021",
+      "display": "MPXV-SC",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine vaccinia virus ankara strain ≥1×10⁸ TCID₅₀ (subcutaneous) suspension for injection (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "mpox vaccine subcutaneous (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "MPXV-SC"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "MPXV"
+        },
+        {
+          "code": "strength",
+          "valueString": "≥1×10⁸ TCID₅₀"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "subcutaneous"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-031",
+      "display": "MR",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine measles virus + vaccine rubella virus (live attenuated) [0,5 mL/dose] (subcutaneous) powder for solution for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "measles and rubella vaccine subcutaneous (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "MR"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "MR"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "subcutaneous"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "yes"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-030",
+      "display": "MV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine measles virus ≥1×10³ PFU (subcutaneous) powder for solution for injection (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "measles vaccine subcutaneous (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "MV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "MV"
+        },
+        {
+          "code": "strength",
+          "valueString": "≥1×10³ PFU"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "subcutaneous"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "yes"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-003",
+      "display": "OCV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine vibrio cholerae (inactivated) 1×10⁹ CFU (oral) oral suspension"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "cholera vaccine oral (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "OCV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "OCV"
+        },
+        {
+          "code": "strength",
+          "valueString": "1×10⁹ CFU"
+        },
+        {
+          "code": "form",
+          "valueString": "oral suspension"
+        },
+        {
+          "code": "route",
+          "valueString": "oral"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "yes"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-004",
+      "display": "OCV-Live",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine vibrio cholerae (live attenuated) ≥2×10⁸ CFU (oral) oral suspension"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "cholera vaccine oral (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "OCV-Live"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "OCV"
+        },
+        {
+          "code": "strength",
+          "valueString": "≥2×10⁸ CFU"
+        },
+        {
+          "code": "form",
+          "valueString": "oral suspension"
+        },
+        {
+          "code": "route",
+          "valueString": "oral"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "yes"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-047",
+      "display": "PCV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine streptococcus pneumoniae capsular polysaccharides conjugated (inactivated) suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "pneumococcal conjugate vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "PCV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "PCV"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-044",
+      "display": "bOPV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine poliovirus type 1,3 (live attenuated) (oral) oral suspension"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "bivalent oral polio vaccine oral (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "bOPV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "POL"
+        },
+        {
+          "code": "form",
+          "valueString": "oral suspension"
+        },
+        {
+          "code": "route",
+          "valueString": "oral"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-039",
+      "display": "IPV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine poliovirus type 1,2,3 (inactivated) (intramuscular) suspension for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "inactivated polio vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "IPV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "POL"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-041",
+      "display": "mOPV1",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine poliovirus type 1 (live attenuated) (oral) oral suspension"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "monovalent oral polio vaccine type 1 (mopv1) oral (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "mOPV1"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "POL"
+        },
+        {
+          "code": "form",
+          "valueString": "oral suspension"
+        },
+        {
+          "code": "route",
+          "valueString": "oral"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-042",
+      "display": "mOPV2",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine poliovirus type 2 (live attenuated) (oral) oral suspension"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "monovalent oral polio vaccine type 2 oral (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "mOPV2"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "POL"
+        },
+        {
+          "code": "form",
+          "valueString": "oral suspension"
+        },
+        {
+          "code": "route",
+          "valueString": "oral"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-043",
+      "display": "mOPV3",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine poliovirus type 3 (live attenuated) (oral) oral suspension"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "monovalent oral polio vaccine type 3 oral (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "mOPV3"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "POL"
+        },
+        {
+          "code": "form",
+          "valueString": "oral suspension"
+        },
+        {
+          "code": "route",
+          "valueString": "oral"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-040",
+      "display": "OPV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine poliovirus type 1,2,3 (live attenuated) (oral) oral suspension"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "oral polio vaccine oral (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "OPV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "POL"
+        },
+        {
+          "code": "form",
+          "valueString": "oral suspension"
+        },
+        {
+          "code": "route",
+          "valueString": "oral"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-045",
+      "display": "tOPV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine poliovirus type 1,2,3 (live attenuated) (oral) oral suspension"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "trivalent oral polio vaccine oral (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "tOPV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "POL"
+        },
+        {
+          "code": "form",
+          "valueString": "oral suspension"
+        },
+        {
+          "code": "route",
+          "valueString": "oral"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-046",
+      "display": "PPSV23",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine streptococcus pneumoniae purified polysaccharides (inactivated) suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "pneumococcal polysaccharide vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "PPSV23"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "PPSV23"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-016",
+      "display": "RABV-ID",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine rabies virus ≥2,5 IU (intradermal) powder for solution for injection (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "rabies vaccine intradermal (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "RABV-ID"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "RABV"
+        },
+        {
+          "code": "strength",
+          "valueString": "≥2,5 IU"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intradermal"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "yes"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-015",
+      "display": "RABV-IM",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine rabies virus (inactivated) ≥2,5 IU (intramuscular) powder for solution for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "rabies vaccine (inactivated) intramuscular"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "RABV-IM"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "RABV"
+        },
+        {
+          "code": "strength",
+          "valueString": "≥2,5 IU"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "yes"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-063",
+      "display": "RSV-PS",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine respiratory syncytial virus glycoprotein recombinant (inactivated) suspension for injection (intramuscular)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "respiratory syncytial virus protein subunit vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "RSV-PS"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "RSV-PS"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-019",
+      "display": "RUBV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine rubella virus ≥1×10³ CCID₅₀ (subcutaneous) powder for solution for injection (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "rubella vaccine subcutaneous (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "RUBV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "RUBV"
+        },
+        {
+          "code": "strength",
+          "valueString": "≥1×10³ CCID₅₀"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "subcutaneous"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-017",
+      "display": "RV-1",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine rotavirus human strain (live attenuated) (oral) oral suspension"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "rotavirus monovalent  vaccine oral (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "RV-1"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "RV"
+        },
+        {
+          "code": "form",
+          "valueString": "oral suspension"
+        },
+        {
+          "code": "route",
+          "valueString": "oral"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-018",
+      "display": "RV-5",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine rotavirus g1,g2,g3,g4 strain (live attenuated) + rotavirus p1a[8] strain (live attenuated) (oral) oral suspension"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "rotavirus pentavalent vaccine oral (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "RV-5"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "RV"
+        },
+        {
+          "code": "strength",
+          "valueString": "~10⁵,6–10⁶,3 CCID₅₀ per type"
+        },
+        {
+          "code": "form",
+          "valueString": "oral suspension"
+        },
+        {
+          "code": "route",
+          "valueString": "oral"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-020",
+      "display": "SPX",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine vaccinia virus ≥2,5×10⁵ PFU (percutaneous) powder for solution for injection (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "smallpox vaccine percutaneous (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "SPX"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "SPX"
+        },
+        {
+          "code": "strength",
+          "valueString": "≥2,5×10⁵ PFU"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "percutaneous"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-033",
+      "display": "TT",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine tetanus toxoid ≥40 IU (intramuscular) suspension for injection (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "tetanus vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "TT"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "TT"
+        },
+        {
+          "code": "strength",
+          "valueString": "≥40 IU"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-025",
+      "display": "TYPH-Ty21a",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine salmonella typhi ty21a strain (live attenuated) gastro-resistant capsule (oral)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "typhoid ty21a vaccine oral (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "TYPH-Ty21a"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "TYPH"
+        },
+        {
+          "code": "strength",
+          "valueString": "usually≥2×10⁹ CFU"
+        },
+        {
+          "code": "form",
+          "valueString": "gastro-resistant capsule"
+        },
+        {
+          "code": "route",
+          "valueString": "oral"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "yes"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-024",
+      "display": "TYPH-Vi",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine salmonella typhi vi capsular polysaccharide 25 ug (intramuscular) suspension for injection (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "typhoid vi polysaccharide vaccine intramuscular (inactivated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "TYPH-Vi"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "TYPH"
+        },
+        {
+          "code": "strength",
+          "valueString": "25 ug"
+        },
+        {
+          "code": "form",
+          "valueString": "suspension for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "intramuscular"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "inactivated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "yes"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-026",
+      "display": "VZV",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine varicella-zoster virus ≥1,35×10³ PFU (subcutaneous) powder for solution for injection (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "varicella vaccine subcutaneous (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "VZV"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "VZV"
+        },
+        {
+          "code": "strength",
+          "valueString": "≥1,35×10³ PFU"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "subcutaneous"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "not apply"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "MP-005",
+      "display": "YVF",
+      "designation": [
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000003001",
+            "display": "Fully specified name"
+          },
+          "value": "vaccine yellow fever virus (live attenuated) ≥1×10³ IU (subcutaneous) powder for solution for injection"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "yellow fever vaccine subcutaneous (live attenuated)"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://snomed.info/sct",
+            "code": "900000000000013009",
+            "display": "Synonym"
+          },
+          "value": "YVF"
+        }
+      ],
+      "property": [
+        {
+          "code": "concept-type",
+          "valueString": "MP"
+        },
+        {
+          "code": "vaccine-category",
+          "valueString": "YVF"
+        },
+        {
+          "code": "strength",
+          "valueString": "≥1×10³ IU"
+        },
+        {
+          "code": "form",
+          "valueString": "powder for solution for injection"
+        },
+        {
+          "code": "route",
+          "valueString": "subcutaneous"
+        },
+        {
+          "code": "antigen-status",
+          "valueString": "live attenuated"
+        },
+        {
+          "code": "use-diluent",
+          "valueString": "yes"
+        },
+        {
+          "code": "entry-date",
+          "valueString": "2025-04-25 00:00:00"
+        }
+      ]
+    }
+  ],
+  "property": [
+    {
+      "code": "concept-type",
+      "uri": "http://giis.org/national-thesaurus/properties/concept-type",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "type": "string"
+    },
+    {
+      "code": "observation",
+      "type": "string"
+    },
+    {
+      "code": "vaccine-category",
+      "type": "string"
+    },
+    {
+      "code": "strength",
+      "type": "string"
+    },
+    {
+      "code": "form",
+      "type": "string"
+    },
+    {
+      "code": "route",
+      "type": "string"
+    },
+    {
+      "code": "antigen-status",
+      "type": "string"
+    },
+    {
+      "code": "use-diluent",
+      "type": "string"
+    },
+    {
+      "code": "diluent",
+      "type": "string"
+    },
+    {
+      "code": "entry-date",
+      "type": "string"
+    },
+    {
+      "code": "exit-date",
+      "type": "string"
+    }
+  ]
+}

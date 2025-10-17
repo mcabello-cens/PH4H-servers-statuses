@@ -1,0 +1,1706 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cdc-mvx",
+  "url": "http://hl7.org/fhir/sid/mvx",
+  "version": "2025-10-13",
+  "name": "CDC_MVX",
+  "title": "CDC Vaccine Manufacturer Codes (MVX)",
+  "status": "active",
+  "publisher": "Centers for Disease Control and Prevention (CDC)",
+  "description": "MVX - Manufacturer of vaccines (U.S. CDC).",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "AB",
+      "display": "Abbott Laboratories",
+      "definition": "includes Ross Products Division, Solvay",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "1"
+        }
+      ]
+    },
+    {
+      "code": "ACA",
+      "display": "Acambis, Inc",
+      "definition": "acquired by sanofi in sept 2008",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "2"
+        }
+      ]
+    },
+    {
+      "code": "AD",
+      "display": "Adams Laboratories, Inc.",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "3"
+        }
+      ]
+    },
+    {
+      "code": "ALP",
+      "display": "Alpha Therapeutic Corporation",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "4"
+        }
+      ]
+    },
+    {
+      "code": "AR",
+      "display": "Armour",
+      "definition": "part of CSL",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "5"
+        }
+      ]
+    },
+    {
+      "code": "AVB",
+      "display": "Aventis Behring L.L.C.",
+      "definition": "part of CSL",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "6"
+        }
+      ]
+    },
+    {
+      "code": "AVI",
+      "display": "Aviron",
+      "definition": "acquired by Medimmune",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "7"
+        }
+      ]
+    },
+    {
+      "code": "BA",
+      "display": "Baxter Healthcare Corporation-inactive",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "8"
+        }
+      ]
+    },
+    {
+      "code": "BAH",
+      "display": "Baxter Healthcare Corporation",
+      "definition": "includes Hyland Immuno, Immuno International AG,and North American Vaccine, Inc./acquired some assets from alpha therapeutics",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "9"
+        }
+      ]
+    },
+    {
+      "code": "BAY",
+      "display": "Bayer Corporation",
+      "definition": "Bayer Biologicals now owned by Talecris",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "10"
+        }
+      ]
+    },
+    {
+      "code": "BP",
+      "display": "Berna Products",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "11"
+        }
+      ]
+    },
+    {
+      "code": "BPC",
+      "display": "Berna Products Corporation",
+      "definition": "includes Swiss Serum and Vaccine Institute Berne",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "12"
+        }
+      ]
+    },
+    {
+      "code": "BTP",
+      "display": "Biotest Pharmaceuticals Corporation",
+      "definition": "New owner of NABI HB as of December 2007, Does NOT replace NABI Biopharmaceuticals in this code list.",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "13"
+        }
+      ]
+    },
+    {
+      "code": "MIP",
+      "display": "Emergent BioSolutions",
+      "definition": "Companies include Emergent Product Development Gaithersburg Inc. and former Emergent BioDefense Operations Lansing and Michigan Biologic Products Institute",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2023-11-01 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "14"
+        }
+      ]
+    },
+    {
+      "code": "CSL",
+      "display": "bioCSL",
+      "definition": "bioCSL a part of Seqirus",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2016-09-26 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "15"
+        }
+      ]
+    },
+    {
+      "code": "CNJ",
+      "display": "Cangene Corporation",
+      "definition": "Purchased by Emergent Biosolutions",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2014-04-29 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "16"
+        }
+      ]
+    },
+    {
+      "code": "CMP",
+      "display": "Celltech Medeva Pharmaceuticals",
+      "definition": "Part of Novartis",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "17"
+        }
+      ]
+    },
+    {
+      "code": "CEN",
+      "display": "Centeon L.L.C.",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "18"
+        }
+      ]
+    },
+    {
+      "code": "CHI",
+      "display": "Chiron Corporation",
+      "definition": "Part of Novartis",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "19"
+        }
+      ]
+    },
+    {
+      "code": "CON",
+      "display": "Connaught",
+      "definition": "acquired by Merieux",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "21"
+        }
+      ]
+    },
+    {
+      "code": "DVC",
+      "display": "DynPort Vaccine Company, LLC",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "22"
+        }
+      ]
+    },
+    {
+      "code": "EVN",
+      "display": "Evans Medical Limited",
+      "definition": "Part of Novartis",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "23"
+        }
+      ]
+    },
+    {
+      "code": "GEO",
+      "display": "GeoVax Labs, Inc.",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "24"
+        }
+      ]
+    },
+    {
+      "code": "SKB",
+      "display": "GlaxoSmithKline",
+      "definition": "includes SmithKline Beecham and Glaxo Wellcome",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "25"
+        }
+      ]
+    },
+    {
+      "code": "GRE",
+      "display": "Greer Laboratories, Inc.",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "26"
+        }
+      ]
+    },
+    {
+      "code": "IAG",
+      "display": "Immuno International AG",
+      "definition": "Part of Baxter",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "27"
+        }
+      ]
+    },
+    {
+      "code": "IUS",
+      "display": "Immuno-U.S., Inc.",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "28"
+        }
+      ]
+    },
+    {
+      "code": "INT",
+      "display": "Intercell Biomedical",
+      "definition": "subsidiary of Valneva",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2016-07-19 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "29"
+        }
+      ]
+    },
+    {
+      "code": "KGC",
+      "display": "Korea Green Cross Corporation",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "30"
+        }
+      ]
+    },
+    {
+      "code": "LED",
+      "display": "Lederle",
+      "definition": "became a part of WAL, now owned by Pfizer",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "31"
+        }
+      ]
+    },
+    {
+      "code": "MBL",
+      "display": "Massachusetts Biologic Laboratories",
+      "definition": "formerly Massachusetts Public Health Biologic Laboratories",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "32"
+        }
+      ]
+    },
+    {
+      "code": "MA",
+      "display": "Massachusetts Public Health Biologic Laboratories",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "33"
+        }
+      ]
+    },
+    {
+      "code": "MED",
+      "display": "MedImmune, Inc. (AstraZeneca)",
+      "definition": "Subsidiary of AstraZeneca",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2019-05-15 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "34"
+        }
+      ]
+    },
+    {
+      "code": "MSD",
+      "display": "Merck and Co., Inc.",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2012-10-18 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "35"
+        }
+      ]
+    },
+    {
+      "code": "IM",
+      "display": "Merieux",
+      "definition": "Part of sanofi",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "36"
+        }
+      ]
+    },
+    {
+      "code": "MIL",
+      "display": "Miles",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "37"
+        }
+      ]
+    },
+    {
+      "code": "NAB",
+      "display": "NABI",
+      "definition": "formerly North American Biologicals, Inc.",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "38"
+        }
+      ]
+    },
+    {
+      "code": "NYB",
+      "display": "New York Blood Center",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "39"
+        }
+      ]
+    },
+    {
+      "code": "NAV",
+      "display": "North American Vaccine, Inc.",
+      "definition": "part of Baxter",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "40"
+        }
+      ]
+    },
+    {
+      "code": "NOV",
+      "display": "Novartis Pharmaceutical Corporation",
+      "definition": "Novartis has sold its flu vaccines to Seqirus and other vaccines to GlaxoSmithKline. While Novartis vaccines may still be in circulation, its status is set to not active.",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2016-04-13 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "41"
+        }
+      ]
+    },
+    {
+      "code": "NVX",
+      "display": "Novavax, Inc.",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2020-10-08 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "42"
+        }
+      ]
+    },
+    {
+      "code": "OTC",
+      "display": "Organon Teknika Corporation",
+      "definition": "Subsidiary of Merck. Sold by Merck 6/8/2021. Effective June 2021  Merck is labeler for BCG product.",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2021-07-21 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "43"
+        }
+      ]
+    },
+    {
+      "code": "ORT",
+      "display": "Ortho-clinical Diagnostics",
+      "definition": "a J & J company (formerly Ortho Diagnostic Systems, Inc.)",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "44"
+        }
+      ]
+    },
+    {
+      "code": "PD",
+      "display": "Parkedale Pharmaceuticals",
+      "definition": "no website and no news articles (formerly Parke-Davis)",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "45"
+        }
+      ]
+    },
+    {
+      "code": "PWJ",
+      "display": "PowderJect Pharmaceuticals",
+      "definition": "See Novartis",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "46"
+        }
+      ]
+    },
+    {
+      "code": "PRX",
+      "display": "Praxis Biologics",
+      "definition": "became a part of WAL, now owned by Pfizer",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "47"
+        }
+      ]
+    },
+    {
+      "code": "JPN",
+      "display": "The Research Foundation for Microbial Diseases of Osaka University (BIKEN)",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "48"
+        }
+      ]
+    },
+    {
+      "code": "PMC",
+      "display": "Sanofi Pasteur",
+      "definition": "Formerly Aventis Pasteur, Pasteur Merieux Connaught; includes Connaught Laboratories and Pasteur Merieux. Acquired ACAMBIS; Acquired Protein Sciences (8/28/2017)",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2019-05-02 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "49"
+        }
+      ]
+    },
+    {
+      "code": "SCL",
+      "display": "Sclavo, Inc.",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "50"
+        }
+      ]
+    },
+    {
+      "code": "SOL",
+      "display": "Solvay Pharmaceuticals",
+      "definition": "Part of Abbott",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "51"
+        }
+      ]
+    },
+    {
+      "code": "SI",
+      "display": "Swiss Serum and Vaccine Inst.",
+      "definition": "Part of Berna",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "52"
+        }
+      ]
+    },
+    {
+      "code": "TAL",
+      "display": "Talecris Biotherapeutics",
+      "definition": "includes Bayer Biologicals",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "53"
+        }
+      ]
+    },
+    {
+      "code": "USA",
+      "display": "United States Army Medical Research and Material Command",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "54"
+        }
+      ]
+    },
+    {
+      "code": "VXG",
+      "display": "VaxGen",
+      "definition": "acquired by Emergent Biodefense Operations Lansing, Inc",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "55"
+        }
+      ]
+    },
+    {
+      "code": "WA",
+      "display": "Wyeth-Ayerst",
+      "definition": "became WAL, now owned by Pfizer",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "56"
+        }
+      ]
+    },
+    {
+      "code": "WAL",
+      "display": "Wyeth",
+      "definition": "acquired by Pfizer 10/15/2009",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "57"
+        }
+      ]
+    },
+    {
+      "code": "ZLB",
+      "display": "ZLB Behring",
+      "definition": "acquired by CSL",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "58"
+        }
+      ]
+    },
+    {
+      "code": "OTH",
+      "display": "Other manufacturer",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "59"
+        }
+      ]
+    },
+    {
+      "code": "UNK",
+      "display": "Unknown manufacturer",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2010-05-28 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "60"
+        }
+      ]
+    },
+    {
+      "code": "AKR",
+      "display": "Akorn, Inc",
+      "definition": "Akorn was a labeler and not a manufacturer",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-04-19 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "61"
+        }
+      ]
+    },
+    {
+      "code": "PFR",
+      "display": "Pfizer, Inc",
+      "definition": "COVID-19 vaccine in co-development with BioNTech.  Pfizer includes Wyeth-Lederle Vaccines and Pediatrics, Wyeth Laboratories, Lederle Laboratories, and Praxis Biologics",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2020-10-30 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "62"
+        }
+      ]
+    },
+    {
+      "code": "BRR",
+      "display": "Barr Laboratories",
+      "definition": "Subsidiary of Teva Pharmaceuticals",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "64"
+        }
+      ]
+    },
+    {
+      "code": "JNJ",
+      "display": "Johnson and Johnson",
+      "definition": "acquired CRUCELL which acquired Berna, parent company of Janssen",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2020-10-08 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "65"
+        }
+      ]
+    },
+    {
+      "code": "PSC",
+      "display": "Protein Sciences",
+      "definition": "Acquired by Sanofi Pasteur (08/28/2017), continues to manufacture vaccines distributed by Sanofi",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2022-10-18 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "66"
+        }
+      ]
+    },
+    {
+      "code": "IDB",
+      "display": "ID Biomedical",
+      "definition": "Part of GlaxoSmithKline",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "67"
+        }
+      ]
+    },
+    {
+      "code": "GRF",
+      "display": "Grifols",
+      "definition": "Grifols is a labeler and not a manufacturer.",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2013-09-05 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "68"
+        }
+      ]
+    },
+    {
+      "code": "CRU",
+      "display": "Crucell",
+      "definition": "acquired Berna,  now a J & J company",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "69"
+        }
+      ]
+    },
+    {
+      "code": "KED",
+      "display": "Kedrion Biopharma",
+      "definition": "acquired Rho(D) from Ortho",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2014-04-29 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "70"
+        }
+      ]
+    },
+    {
+      "code": "PAX",
+      "display": "Emergent Travel Health, Inc (Formerly PaxVax)",
+      "definition": "Emergent Biosolutions acquired PaxVax 8/2021, US Vaccines starting to label under Emergent Travel Health Inc.",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2021-08-03 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "71"
+        }
+      ]
+    },
+    {
+      "code": "MCM",
+      "display": "MCM Vaccine Company",
+      "definition": "Partnership between Merck and Sanofi Pasteur",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "72"
+        }
+      ]
+    },
+    {
+      "code": "SEQ",
+      "display": "Seqirus",
+      "definition": "Seqirus acquired the flu vaccines from Novartis. It also includes the CSL vaccines.",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2016-04-13 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "73"
+        }
+      ]
+    },
+    {
+      "code": "VAL",
+      "display": "Valneva",
+      "definition": "Distributes through Intercell in the US",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2016-07-19 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "74"
+        }
+      ]
+    },
+    {
+      "code": "DYN",
+      "display": "Dynaport",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-11-16 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "75"
+        }
+      ]
+    },
+    {
+      "code": "DVX",
+      "display": "Dynavax, Inc.",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2017-10-27 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "76"
+        }
+      ]
+    },
+    {
+      "code": "DSI",
+      "display": "Dispensing Solutions",
+      "definition": "Vaccine Relabeler",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2018-05-10 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "77"
+        }
+      ]
+    },
+    {
+      "code": "REB",
+      "display": "Rebel Distributors",
+      "definition": "Vaccine Relabeler",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2018-05-10 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "78"
+        }
+      ]
+    },
+    {
+      "code": "VET",
+      "display": "Vetter Pharma Fertigung GmbH & Co. KG",
+      "definition": "nan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2018-05-10 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "79"
+        }
+      ]
+    },
+    {
+      "code": "TVA",
+      "display": "TEVA Pharmaceuticals USA",
+      "definition": "BARR Laboratories merged with TEVA in 2007.  The MVX for Barr was retired in 2011,  TEVA continues to produce the former BARR vaccines",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2019-07-23 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "80"
+        }
+      ]
+    },
+    {
+      "code": "BN",
+      "display": "Bavarian Nordic A/S",
+      "definition": "manufacturer of national stockpile smallpox vaccine Jynneos",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2020-07-17 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "81"
+        }
+      ]
+    },
+    {
+      "code": "MOD",
+      "display": "Moderna US, Inc.",
+      "definition": "New vaccine manufacturer effective 11/1/2020",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2022-11-01 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "90"
+        }
+      ]
+    },
+    {
+      "code": "ASZ",
+      "display": "AstraZeneca",
+      "definition": "Parent Company of MedImmune",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2022-11-01 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "91"
+        }
+      ]
+    },
+    {
+      "code": "JSN",
+      "display": "Janssen",
+      "definition": "Division of Johnson and Johnson, manufacturer of Covid-19 vaccine",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2022-11-01 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "92"
+        }
+      ]
+    },
+    {
+      "code": "SPH",
+      "display": "Sinopharm-Biotech",
+      "definition": "Non-US COVID-19 Vaccine Manufacturer - WHO Authorized",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2021-07-15 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "93"
+        }
+      ]
+    },
+    {
+      "code": "SNV",
+      "display": "Sinovac",
+      "definition": "Non-US COVID-19 Vaccine Manufacturer - WHO Authorized (Sinovac, CoronaVac)",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2021-07-12 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "94"
+        }
+      ]
+    },
+    {
+      "code": "MSP",
+      "display": "MSP Vaccine Company - (partnership Merck and Sanofi Pasteur)",
+      "definition": "US Based - Joint manufacturing partnership, initial vaccine Vaxelis 10/2020",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2021-07-27 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "95"
+        }
+      ]
+    },
+    {
+      "code": "BBI",
+      "display": "Bharat Biotech International Limited",
+      "definition": "Non-US COVID-19 Vaccine Manufacturer - WHO Authorized (COVAXIN)",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2021-11-09 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "96"
+        }
+      ]
+    },
+    {
+      "code": "VBI",
+      "display": "VBI Vaccines, Inc",
+      "definition": "Manufacturer VBI ceased operation and Prehevbio Hep B product recalled effective 11/15/2024.",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2024-12-06 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "97"
+        }
+      ]
+    },
+    {
+      "code": "MDO",
+      "display": "Medicago, Inc",
+      "definition": "Non-US COVID-19 vaccine manufacturer Cofivenz vaccine recognized by ACIP",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2022-04-13 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "98"
+        }
+      ]
+    },
+    {
+      "code": "CAN",
+      "display": "CanSino Biologics, Inc",
+      "definition": "Non-US COVID-19 vaccine manufacturer,  WHO Authorized (CONVIDECIA) on 5/19/2022",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        },
+        {
+          "code": "last updated date",
+          "valueString": "2022-11-01 00:00:00"
+        },
+        {
+          "code": "manufacturer_id",
+          "valueString": "99"
+        }
+      ]
+    }
+  ],
+  "valueSet": "http://hl7.org/fhir/valueset/mvx/cdc-mvx"
+}

@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-GD-vaccines",
+  "url": "http://giis.org/semantic/ValueSet/GD-vaccines",
+  "version": "2025-04-28",
+  "name": "GdVaccines",
+  "title": "Vaccines for Grenada",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://giis.org/semantic/CodeSystem/thesaurus",
+        "concept": [
+          {
+            "code": "MP-053",
+            "display": "DTaP"
+          },
+          {
+            "code": "MP-046",
+            "display": "PPSV23"
+          },
+          {
+            "code": "MP-006",
+            "display": "DENV4-Live-SC"
+          },
+          {
+            "code": "MP-042",
+            "display": "mOPV2"
+          },
+          {
+            "code": "MP-024",
+            "display": "TYPH-Vi"
+          }
+        ]
+      }
+    ]
+  },
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GD",
+          "display": "Grenada"
+        }
+      ]
+    }
+  ]
+}

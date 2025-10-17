@@ -1,0 +1,61 @@
+{
+  "index-version": 1,
+  "files": [
+    {
+      "filename": "ValueSet/cdc-mvx.valueset.json",
+      "resourceType": "ValueSet",
+      "id": "cdc-mvx",
+      "kind": "valueset",
+      "url": "http://hl7.org/fhir/valueset/mvx/cdc-mvx"
+    },
+    {
+      "filename": "ValueSet/cdc-cvx.valueset.json",
+      "resourceType": "ValueSet",
+      "id": "cdc-cvx",
+      "kind": "valueset",
+      "url": "http://hl7.org/fhir/valueset/cvx/cdc-cvx"
+    },
+    {
+      "filename": "ValueSet/ValueSet-Grenada.json",
+      "resourceType": "ValueSet",
+      "id": "vs-GD-vaccines",
+      "kind": "valueset",
+      "url": "http://giis.org/semantic/ValueSet/GD-vaccines"
+    },
+    {
+      "filename": "ValueSet/ValueSet-CaikosTurks.json",
+      "resourceType": "ValueSet",
+      "id": "vs-TC-vaccines",
+      "kind": "valueset",
+      "url": "http://giis.org/semantic/ValueSet/TC-vaccines"
+    },
+    {
+      "filename": "CodeSystem/cdc-cvx.codesystem.json",
+      "resourceType": "CodeSystem",
+      "id": "cdc-cvx",
+      "kind": "codesystem",
+      "url": "http://hl7.org/fhir/sid/cvx"
+    },
+    {
+      "filename": "CodeSystem/CodeSystem-MedicinalProducts-Full.json",
+      "resourceType": "CodeSystem",
+      "id": "national-thesaurus-medicinal-products",
+      "kind": "codesystem",
+      "url": "http://giis.org/semantic/CodeSystem/thesaurus"
+    },
+    {
+      "filename": "CodeSystem/cdc-mvx.codesystem.json",
+      "resourceType": "CodeSystem",
+      "id": "cdc-mvx",
+      "kind": "codesystem",
+      "url": "http://hl7.org/fhir/sid/mvx"
+    },
+    {
+      "filename": "ConceptMap/cdc-cpt-to-cvx.conceptmap.json",
+      "resourceType": "ConceptMap",
+      "id": "cdc-cpt-to-cvx",
+      "kind": "conceptmap",
+      "url": "http://hl7.org/fhir/sid/cpt-to-cvx"
+    }
+  ]
+}

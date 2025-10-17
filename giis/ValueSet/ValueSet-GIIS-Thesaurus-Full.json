@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-vaccines",
+  "url": "http://giis.org/semantic/ValueSet/vaccines",
+  "version": "2025-04-28",
+  "name": "VaccinesThesaurus",
+  "title": "Vaccines Thesaurus",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://giis.org/semantic/CodeSystem/thesaurus"
+      }
+    ]
+  }
+}

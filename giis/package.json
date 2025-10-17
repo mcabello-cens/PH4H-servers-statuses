@@ -1,0 +1,43 @@
+{
+  "name": "giis.fhir.package",
+  "version": "1.0.0",
+  "description": "GIIS FHIR Package",
+  "fhirVersion": "4.0.1",
+  "dependencies": {},
+  "author": "CENS",
+  "url": "http://cens.cl",
+  "resources": [
+    {
+      "type": "ValueSet",
+      "reference": "ValueSet/cdc-mvx.valueset"
+    },
+    {
+      "type": "ValueSet",
+      "reference": "ValueSet/cdc-cvx.valueset"
+    },
+    {
+      "type": "ValueSet",
+      "reference": "ValueSet/ValueSet-Grenada"
+    },
+    {
+      "type": "ValueSet",
+      "reference": "ValueSet/ValueSet-CaikosTurks"
+    },
+    {
+      "type": "CodeSystem",
+      "reference": "CodeSystem/cdc-cvx.codesystem"
+    },
+    {
+      "type": "CodeSystem",
+      "reference": "CodeSystem/CodeSystem-MedicinalProducts-Full"
+    },
+    {
+      "type": "CodeSystem",
+      "reference": "CodeSystem/cdc-mvx.codesystem"
+    },
+    {
+      "type": "ConceptMap",
+      "reference": "ConceptMap/cdc-cpt-to-cvx.conceptmap"
+    }
+  ]
+}

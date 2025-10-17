@@ -1,0 +1,1869 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "cdc-cpt-to-cvx",
+  "url": "http://hl7.org/fhir/sid/cpt-to-cvx",
+  "version": "2025-10-13",
+  "name": "CDC_CPT_to_CVX",
+  "title": "CDC Mapping of CPT Codes to CVX Codes",
+  "status": "active",
+  "publisher": "Centers for Disease Control and Prevention (CDC)",
+  "description": "Mappings between CPT (Current Procedural Terminology) codes and CVX (Vaccines Administered) codes as maintained by the CDC.",
+  "sourceUri": "http://hl7.org/fhir/sid/cpt",
+  "targetUri": "http://hl7.org/fhir/sid/cvx",
+  "group": [
+    {
+      "source": "http://hl7.org/fhir/sid/cpt",
+      "target": "http://hl7.org/fhir/sid/cvx",
+      "element": [
+        {
+          "code": "90281",
+          "display": "IG",
+          "target": [
+            {
+              "code": "86",
+              "display": "IG",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90283",
+          "display": "IGIV",
+          "target": [
+            {
+              "code": "87",
+              "display": "IGIV",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90287",
+          "display": "botulinum antitoxin",
+          "target": [
+            {
+              "code": "27",
+              "display": "botulinum antitoxin",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90291",
+          "display": "CMVIG",
+          "target": [
+            {
+              "code": "29",
+              "display": "CMVIG",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90296",
+          "display": "diphtheria antitoxin",
+          "target": [
+            {
+              "code": "12",
+              "display": "diphtheria antitoxin",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90371",
+          "display": "HBIG",
+          "target": [
+            {
+              "code": "30",
+              "display": "HBIG",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90375",
+          "display": "RIG",
+          "target": [
+            {
+              "code": "34",
+              "display": "RIG",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90376",
+          "display": "RIG",
+          "target": [
+            {
+              "code": "34",
+              "display": "RIG",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90378",
+          "display": "RSV-MAb",
+          "target": [
+            {
+              "code": "93",
+              "display": "RSV-MAb",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90380",
+          "display": "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months",
+          "target": [
+            {
+              "code": "306",
+              "display": "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90381",
+          "display": "RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months",
+          "target": [
+            {
+              "code": "307",
+              "display": "RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90382",
+          "display": "RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF",
+          "target": [
+            {
+              "code": "332",
+              "display": "RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90389",
+          "display": "TIG",
+          "target": [
+            {
+              "code": "13",
+              "display": "TIG",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90393",
+          "display": "vaccinia immune globulin",
+          "target": [
+            {
+              "code": "79",
+              "display": "vaccinia immune globulin",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90396",
+          "display": "VZIG",
+          "target": [
+            {
+              "code": "36",
+              "display": "VZIG",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90470",
+          "display": "Novel Influenza-H1N1-09, all formulations",
+          "target": [
+            {
+              "code": "128",
+              "display": "Novel Influenza-H1N1-09, all formulations",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90476",
+          "display": "adenovirus, type 4",
+          "target": [
+            {
+              "code": "54",
+              "display": "adenovirus, type 4",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90477",
+          "display": "adenovirus, type 7",
+          "target": [
+            {
+              "code": "55",
+              "display": "adenovirus, type 7",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90581",
+          "display": "Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis",
+          "target": [
+            {
+              "code": "24",
+              "display": "Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90581",
+          "display": "Anthrax, post-exposure prophylaxis",
+          "target": [
+            {
+              "code": "318",
+              "display": "Anthrax, post-exposure prophylaxis",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90585",
+          "display": "BCG",
+          "target": [
+            {
+              "code": "19",
+              "display": "BCG",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90587",
+          "display": "dengue fever tetravalent",
+          "target": [
+            {
+              "code": "56",
+              "display": "dengue fever tetravalent",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90589",
+          "display": "Chikungunya live attenuated vaccine, 0.5 mL, PF",
+          "target": [
+            {
+              "code": "317",
+              "display": "Chikungunya live attenuated vaccine, 0.5 mL, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90593",
+          "display": "Chikungunya, VLP, recombinant, 0.8 mL, PF",
+          "target": [
+            {
+              "code": "329",
+              "display": "Chikungunya, VLP, recombinant, 0.8 mL, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90611",
+          "display": "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection",
+          "target": [
+            {
+              "code": "206",
+              "display": "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90619",
+          "display": "meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)",
+          "target": [
+            {
+              "code": "203",
+              "display": "meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90620",
+          "display": "meningococcal B, OMV",
+          "target": [
+            {
+              "code": "163",
+              "display": "meningococcal B, OMV",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90621",
+          "display": "meningococcal B, recombinant",
+          "target": [
+            {
+              "code": "162",
+              "display": "meningococcal B, recombinant",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90622",
+          "display": "Vaccinia (smallpox, mpox), live",
+          "target": [
+            {
+              "code": "75",
+              "display": "Vaccinia (smallpox, mpox), live",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90623",
+          "display": "Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
+          "target": [
+            {
+              "code": "316",
+              "display": "Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90624",
+          "display": "Meningococcal oligosaccharide (MenACWY), (MenB), PF",
+          "target": [
+            {
+              "code": "328",
+              "display": "Meningococcal oligosaccharide (MenACWY), (MenB), PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90625",
+          "display": "cholera, live attenuated",
+          "target": [
+            {
+              "code": "174",
+              "display": "cholera, live attenuated",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90626",
+          "display": "Tick-borne encephalitis, inactivated, PF, 0.25mL",
+          "target": [
+            {
+              "code": "223",
+              "display": "Tick-borne encephalitis, inactivated, PF, 0.25mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90627",
+          "display": "Tick-borne encephalitis, inactivated, PF, 0.5mL",
+          "target": [
+            {
+              "code": "224",
+              "display": "Tick-borne encephalitis, inactivated, PF, 0.5mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90630",
+          "display": "influenza, intradermal, quadrivalent, preservative free",
+          "target": [
+            {
+              "code": "166",
+              "display": "influenza, intradermal, quadrivalent, preservative free",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90632",
+          "display": "Hep A, adult",
+          "target": [
+            {
+              "code": "52",
+              "display": "Hep A, adult",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90633",
+          "display": "Hep A, ped/adol, 2 dose",
+          "target": [
+            {
+              "code": "83",
+              "display": "Hep A, ped/adol, 2 dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90634",
+          "display": "Hep A, ped/adol, 3 dose",
+          "target": [
+            {
+              "code": "84",
+              "display": "Hep A, ped/adol, 3 dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90636",
+          "display": "Hep A-Hep B",
+          "target": [
+            {
+              "code": "104",
+              "display": "Hep A-Hep B",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90644",
+          "display": "Meningococcal C/Y-HIB PRP",
+          "target": [
+            {
+              "code": "148",
+              "display": "Meningococcal C/Y-HIB PRP",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90645",
+          "display": "Hib (HbOC)",
+          "target": [
+            {
+              "code": "47",
+              "display": "Hib (HbOC)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90646",
+          "display": "Hib (PRP-D)",
+          "target": [
+            {
+              "code": "46",
+              "display": "Hib (PRP-D)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90647",
+          "display": "Hib (PRP-OMP)",
+          "target": [
+            {
+              "code": "49",
+              "display": "Hib (PRP-OMP)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90648",
+          "display": "Hib (PRP-T)",
+          "target": [
+            {
+              "code": "48",
+              "display": "Hib (PRP-T)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90649",
+          "display": "HPV, quadrivalent",
+          "target": [
+            {
+              "code": "62",
+              "display": "HPV, quadrivalent",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90650",
+          "display": "HPV, bivalent",
+          "target": [
+            {
+              "code": "118",
+              "display": "HPV, bivalent",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90651",
+          "display": "HPV9",
+          "target": [
+            {
+              "code": "165",
+              "display": "HPV9",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90653",
+          "display": "Influenza, adjuvanted, trivalent, PF",
+          "target": [
+            {
+              "code": "168",
+              "display": "Influenza, adjuvanted, trivalent, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90654",
+          "display": "influenza, seasonal, intradermal, preservative free",
+          "target": [
+            {
+              "code": "144",
+              "display": "influenza, seasonal, intradermal, preservative free",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90656",
+          "display": "Influenza, split virus, trivalent, PF",
+          "target": [
+            {
+              "code": "140",
+              "display": "Influenza, split virus, trivalent, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90657",
+          "display": "Influenza, split virus, trivalent, preservative",
+          "target": [
+            {
+              "code": "141",
+              "display": "Influenza, split virus, trivalent, preservative",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90658",
+          "display": "Influenza, split virus, trivalent, preservative",
+          "target": [
+            {
+              "code": "141",
+              "display": "Influenza, split virus, trivalent, preservative",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90659",
+          "display": "influenza, whole",
+          "target": [
+            {
+              "code": "16",
+              "display": "influenza, whole",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90660",
+          "display": "Influenza, live, trivalent, intranasal, PF",
+          "target": [
+            {
+              "code": "111",
+              "display": "Influenza, live, trivalent, intranasal, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90661",
+          "display": "Influenza, MDCK, trivalent, PF",
+          "target": [
+            {
+              "code": "153",
+              "display": "Influenza, MDCK, trivalent, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90661",
+          "display": "Influenza, MDCK, trivalent, preservative",
+          "target": [
+            {
+              "code": "320",
+              "display": "Influenza, MDCK, trivalent, preservative",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90662",
+          "display": "Influenza, high-dose, trivalent, PF",
+          "target": [
+            {
+              "code": "135",
+              "display": "Influenza, high-dose, trivalent, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90662",
+          "display": "Influenza, high-dose, quadrivalent, PF",
+          "target": [
+            {
+              "code": "197",
+              "display": "Influenza, high-dose, quadrivalent, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90663",
+          "display": "Novel Influenza-H1N1-09, all formulations",
+          "target": [
+            {
+              "code": "128",
+              "display": "Novel Influenza-H1N1-09, all formulations",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90664",
+          "display": "Novel Influenza-H1N1-09, nasal",
+          "target": [
+            {
+              "code": "125",
+              "display": "Novel Influenza-H1N1-09, nasal",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90665",
+          "display": "Lyme disease",
+          "target": [
+            {
+              "code": "66",
+              "display": "Lyme disease",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90666",
+          "display": "Novel influenza-H1N1-09, preservative-free",
+          "target": [
+            {
+              "code": "126",
+              "display": "Novel influenza-H1N1-09, preservative-free",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90668",
+          "display": "Novel influenza-H1N1-09",
+          "target": [
+            {
+              "code": "127",
+              "display": "Novel influenza-H1N1-09",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90669",
+          "display": "pneumococcal conjugate PCV 7",
+          "target": [
+            {
+              "code": "100",
+              "display": "pneumococcal conjugate PCV 7",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90670",
+          "display": "Pneumococcal conjugate PCV 13",
+          "target": [
+            {
+              "code": "133",
+              "display": "Pneumococcal conjugate PCV 13",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90671",
+          "display": "Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF",
+          "target": [
+            {
+              "code": "215",
+              "display": "Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90672",
+          "display": "Influenza, live, quadrivalent, intranasal",
+          "target": [
+            {
+              "code": "149",
+              "display": "Influenza, live, quadrivalent, intranasal",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90673",
+          "display": "Influenza, recombinant, trivalent, PF",
+          "target": [
+            {
+              "code": "155",
+              "display": "Influenza, recombinant, trivalent, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90674",
+          "display": "Influenza, MDCK, quadrivalent, PF",
+          "target": [
+            {
+              "code": "171",
+              "display": "Influenza, MDCK, quadrivalent, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90675",
+          "display": "Rabies - IM Diploid cell culture",
+          "target": [
+            {
+              "code": "175",
+              "display": "Rabies - IM Diploid cell culture",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90675",
+          "display": "Rabies - IM fibroblast culture",
+          "target": [
+            {
+              "code": "176",
+              "display": "Rabies - IM fibroblast culture",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90676",
+          "display": "rabies, intradermal injection",
+          "target": [
+            {
+              "code": "40",
+              "display": "rabies, intradermal injection",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90677",
+          "display": "Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF",
+          "target": [
+            {
+              "code": "216",
+              "display": "Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90678",
+          "display": "RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF",
+          "target": [
+            {
+              "code": "305",
+              "display": "RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90679",
+          "display": "RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF",
+          "target": [
+            {
+              "code": "303",
+              "display": "RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90680",
+          "display": "rotavirus, pentavalent",
+          "target": [
+            {
+              "code": "116",
+              "display": "rotavirus, pentavalent",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90681",
+          "display": "rotavirus, monovalent",
+          "target": [
+            {
+              "code": "119",
+              "display": "rotavirus, monovalent",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90682",
+          "display": "Influenza, recombinant, quadrivalent, PF",
+          "target": [
+            {
+              "code": "185",
+              "display": "Influenza, recombinant, quadrivalent, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90683",
+          "display": "RSV, mRNA, injectable, PF",
+          "target": [
+            {
+              "code": "326",
+              "display": "RSV, mRNA, injectable, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90684",
+          "display": "Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF",
+          "target": [
+            {
+              "code": "327",
+              "display": "Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90685",
+          "display": "Influenza, injectable,quadrivalent, preservative free, pediatric",
+          "target": [
+            {
+              "code": "161",
+              "display": "Influenza, injectable,quadrivalent, preservative free, pediatric",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90686",
+          "display": "Influenza, split virus, quadrivalent, PF",
+          "target": [
+            {
+              "code": "150",
+              "display": "Influenza, split virus, quadrivalent, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90687",
+          "display": "Influenza, split virus, quadrivalent, preservative",
+          "target": [
+            {
+              "code": "158",
+              "display": "Influenza, split virus, quadrivalent, preservative",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90688",
+          "display": "Influenza, split virus, quadrivalent, preservative",
+          "target": [
+            {
+              "code": "158",
+              "display": "Influenza, split virus, quadrivalent, preservative",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90690",
+          "display": "typhoid, oral",
+          "target": [
+            {
+              "code": "25",
+              "display": "typhoid, oral",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90691",
+          "display": "typhoid, ViCPs",
+          "target": [
+            {
+              "code": "101",
+              "display": "typhoid, ViCPs",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90692",
+          "display": "typhoid, parenteral",
+          "target": [
+            {
+              "code": "41",
+              "display": "typhoid, parenteral",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90693",
+          "display": "typhoid, parenteral, AKD (U.S. military)",
+          "target": [
+            {
+              "code": "53",
+              "display": "typhoid, parenteral, AKD (U.S. military)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90694",
+          "display": "Influenza, adjuvanted, quadrivalent, PF",
+          "target": [
+            {
+              "code": "205",
+              "display": "Influenza, adjuvanted, quadrivalent, PF",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90696",
+          "display": "DTaP-IPV",
+          "target": [
+            {
+              "code": "130",
+              "display": "DTaP-IPV",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90697",
+          "display": "DTaP,IPV,Hib,HepB",
+          "target": [
+            {
+              "code": "146",
+              "display": "DTaP,IPV,Hib,HepB",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90698",
+          "display": "DTaP-Hib-IPV",
+          "target": [
+            {
+              "code": "120",
+              "display": "DTaP-Hib-IPV",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90700",
+          "display": "DTaP",
+          "target": [
+            {
+              "code": "20",
+              "display": "DTaP",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90700",
+          "display": "DTaP, 5 pertussis antigens",
+          "target": [
+            {
+              "code": "106",
+              "display": "DTaP, 5 pertussis antigens",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90701",
+          "display": "DTP",
+          "target": [
+            {
+              "code": "1",
+              "display": "DTP",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90702",
+          "display": "DT (pediatric)",
+          "target": [
+            {
+              "code": "28",
+              "display": "DT (pediatric)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90703",
+          "display": "tetanus toxoid, adsorbed",
+          "target": [
+            {
+              "code": "35",
+              "display": "tetanus toxoid, adsorbed",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90704",
+          "display": "mumps",
+          "target": [
+            {
+              "code": "7",
+              "display": "mumps",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90705",
+          "display": "measles",
+          "target": [
+            {
+              "code": "5",
+              "display": "measles",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90706",
+          "display": "rubella",
+          "target": [
+            {
+              "code": "6",
+              "display": "rubella",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90707",
+          "display": "MMR",
+          "target": [
+            {
+              "code": "3",
+              "display": "MMR",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90708",
+          "display": "M/R",
+          "target": [
+            {
+              "code": "4",
+              "display": "M/R",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90710",
+          "display": "MMRV",
+          "target": [
+            {
+              "code": "94",
+              "display": "MMRV",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90712",
+          "display": "OPV, Unspecified",
+          "target": [
+            {
+              "code": "182",
+              "display": "OPV, Unspecified",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90713",
+          "display": "IPV",
+          "target": [
+            {
+              "code": "10",
+              "display": "IPV",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90714",
+          "display": "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed",
+          "target": [
+            {
+              "code": "113",
+              "display": "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90714",
+          "display": "Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed",
+          "target": [
+            {
+              "code": "9",
+              "display": "Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90715",
+          "display": "Tdap",
+          "target": [
+            {
+              "code": "115",
+              "display": "Tdap",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90716",
+          "display": "varicella",
+          "target": [
+            {
+              "code": "21",
+              "display": "varicella",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90717",
+          "display": "Yellow fever vaccine live - alt",
+          "target": [
+            {
+              "code": "183",
+              "display": "Yellow fever vaccine live - alt",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90717",
+          "display": "yellow fever live",
+          "target": [
+            {
+              "code": "37",
+              "display": "yellow fever live",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90720",
+          "display": "DTP-Hib",
+          "target": [
+            {
+              "code": "22",
+              "display": "DTP-Hib",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90721",
+          "display": "DTaP-Hib",
+          "target": [
+            {
+              "code": "50",
+              "display": "DTaP-Hib",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90723",
+          "display": "DTaP-Hep B-IPV",
+          "target": [
+            {
+              "code": "110",
+              "display": "DTaP-Hep B-IPV",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90724",
+          "display": "influenza, unspecified formulation",
+          "target": [
+            {
+              "code": "88",
+              "display": "influenza, unspecified formulation",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90725",
+          "display": "cholera, unspecified formulation",
+          "target": [
+            {
+              "code": "26",
+              "display": "cholera, unspecified formulation",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90726",
+          "display": "rabies, unspecified formulation",
+          "target": [
+            {
+              "code": "90",
+              "display": "rabies, unspecified formulation",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90727",
+          "display": "plague",
+          "target": [
+            {
+              "code": "23",
+              "display": "plague",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90728",
+          "display": "BCG",
+          "target": [
+            {
+              "code": "19",
+              "display": "BCG",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90730",
+          "display": "Hep A, unspecified formulation",
+          "target": [
+            {
+              "code": "85",
+              "display": "Hep A, unspecified formulation",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90731",
+          "display": "Hep B, unspecified formulation",
+          "target": [
+            {
+              "code": "45",
+              "display": "Hep B, unspecified formulation",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90732",
+          "display": "pneumococcal polysaccharide PPV23",
+          "target": [
+            {
+              "code": "33",
+              "display": "pneumococcal polysaccharide PPV23",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90733",
+          "display": "meningococcal MPSV4",
+          "target": [
+            {
+              "code": "32",
+              "display": "meningococcal MPSV4",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90734",
+          "display": "Meningococcal MCV4O",
+          "target": [
+            {
+              "code": "136",
+              "display": "Meningococcal MCV4O",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90734",
+          "display": "meningococcal MCV4P",
+          "target": [
+            {
+              "code": "114",
+              "display": "meningococcal MCV4P",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90735",
+          "display": "Japanese encephalitis SC",
+          "target": [
+            {
+              "code": "39",
+              "display": "Japanese encephalitis SC",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90736",
+          "display": "zoster live",
+          "target": [
+            {
+              "code": "121",
+              "display": "zoster live",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90737",
+          "display": "Hib, unspecified formulation",
+          "target": [
+            {
+              "code": "17",
+              "display": "Hib, unspecified formulation",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90738",
+          "display": "Japanese Encephalitis IM",
+          "target": [
+            {
+              "code": "134",
+              "display": "Japanese Encephalitis IM",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90739",
+          "display": "HepB-CpG",
+          "target": [
+            {
+              "code": "189",
+              "display": "HepB-CpG",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90740",
+          "display": "Hep B, high-dosage, dialysis or IC",
+          "target": [
+            {
+              "code": "44",
+              "display": "Hep B, high-dosage, dialysis or IC",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90741",
+          "display": "IG, unspecified formulation",
+          "target": [
+            {
+              "code": "14",
+              "display": "IG, unspecified formulation",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90743",
+          "display": "Hep B, adolescent or pediatric",
+          "target": [
+            {
+              "code": "8",
+              "display": "Hep B, adolescent or pediatric",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90743",
+          "display": "Hep B, adult",
+          "target": [
+            {
+              "code": "43",
+              "display": "Hep B, adult",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90744",
+          "display": "Hep B, adolescent or pediatric",
+          "target": [
+            {
+              "code": "8",
+              "display": "Hep B, adolescent or pediatric",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90745",
+          "display": "Hep B, adolescent/high risk infant",
+          "target": [
+            {
+              "code": "42",
+              "display": "Hep B, adolescent/high risk infant",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90746",
+          "display": "Hep B, adult",
+          "target": [
+            {
+              "code": "43",
+              "display": "Hep B, adult",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90747",
+          "display": "Hep B, high-dosage, dialysis or IC",
+          "target": [
+            {
+              "code": "44",
+              "display": "Hep B, high-dosage, dialysis or IC",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90748",
+          "display": "Hib-Hep B",
+          "target": [
+            {
+              "code": "51",
+              "display": "Hib-Hep B",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90750",
+          "display": "zoster recombinant",
+          "target": [
+            {
+              "code": "187",
+              "display": "zoster recombinant",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90756",
+          "display": "Influenza, MDCK, quadrivalent, preservative",
+          "target": [
+            {
+              "code": "186",
+              "display": "Influenza, MDCK, quadrivalent, preservative",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90758",
+          "display": "Ebola Zaire vaccine, live, recombinant, 1mL dose",
+          "target": [
+            {
+              "code": "204",
+              "display": "Ebola Zaire vaccine, live, recombinant, 1mL dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "90759",
+          "display": "HepB recombinant, 3-antigen, Al(OH)3",
+          "target": [
+            {
+              "code": "220",
+              "display": "HepB recombinant, 3-antigen, Al(OH)3",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91300",
+          "display": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose",
+          "target": [
+            {
+              "code": "208",
+              "display": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91301",
+          "display": "COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose",
+          "target": [
+            {
+              "code": "207",
+              "display": "COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91302",
+          "display": "COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL",
+          "target": [
+            {
+              "code": "210",
+              "display": "COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91303",
+          "display": "COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL",
+          "target": [
+            {
+              "code": "212",
+              "display": "COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91304",
+          "display": "COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL",
+          "target": [
+            {
+              "code": "313",
+              "display": "COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91304",
+          "display": "COVID-19, subunit, rS-nanoparticle+Matrix-M1 Adjuvant, PF, 0.5 mL",
+          "target": [
+            {
+              "code": "211",
+              "display": "COVID-19, subunit, rS-nanoparticle+Matrix-M1 Adjuvant, PF, 0.5 mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91305",
+          "display": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose",
+          "target": [
+            {
+              "code": "217",
+              "display": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91306",
+          "display": "COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose",
+          "target": [
+            {
+              "code": "207",
+              "display": "COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91307",
+          "display": "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL dose, tris-sucrose",
+          "target": [
+            {
+              "code": "218",
+              "display": "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL dose, tris-sucrose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91308",
+          "display": "COVID-19, mRNA, LNP-S, PF, 3 mcg/0.2 mL dose, tris-sucrose",
+          "target": [
+            {
+              "code": "219",
+              "display": "COVID-19, mRNA, LNP-S, PF, 3 mcg/0.2 mL dose, tris-sucrose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91309",
+          "display": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL dose",
+          "target": [
+            {
+              "code": "221",
+              "display": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91310",
+          "display": "COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 5mcg/0.5mL",
+          "target": [
+            {
+              "code": "225",
+              "display": "COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 5mcg/0.5mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91311",
+          "display": "COVID-19, mRNA, LNP-S, PF, pediatric 25 mcg/0.25 mL dose",
+          "target": [
+            {
+              "code": "228",
+              "display": "COVID-19, mRNA, LNP-S, PF, pediatric 25 mcg/0.25 mL dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91312",
+          "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose",
+          "target": [
+            {
+              "code": "300",
+              "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91313",
+          "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose",
+          "target": [
+            {
+              "code": "229",
+              "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91314",
+          "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose",
+          "target": [
+            {
+              "code": "229",
+              "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91315",
+          "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL dose",
+          "target": [
+            {
+              "code": "301",
+              "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91316",
+          "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL",
+          "target": [
+            {
+              "code": "230",
+              "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91317",
+          "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 3 mcg/0.2 mL dose",
+          "target": [
+            {
+              "code": "302",
+              "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 3 mcg/0.2 mL dose",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91318",
+          "display": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
+          "target": [
+            {
+              "code": "308",
+              "display": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91319",
+          "display": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL",
+          "target": [
+            {
+              "code": "310",
+              "display": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91320",
+          "display": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL",
+          "target": [
+            {
+              "code": "309",
+              "display": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91321",
+          "display": "COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL",
+          "target": [
+            {
+              "code": "311",
+              "display": "COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91322",
+          "display": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL",
+          "target": [
+            {
+              "code": "312",
+              "display": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "91323",
+          "display": "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL",
+          "target": [
+            {
+              "code": "334",
+              "display": "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

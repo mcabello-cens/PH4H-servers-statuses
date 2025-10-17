@@ -1,0 +1,20 @@
+=====================================================
+ Reporte de estado SNOWSTORM - FHIR - País: SURINAME
+ Fecha: Fri Oct 17 11:56:49 AM UTC 2025
+=====================================================
+
+[INFO] Base: http://186.179.201.48:8080/fhir
+[FAIL] CodeSystem SNOMED NO encontrado (http://snomed.info/sct)
+[INFO] Base: http://186.179.201.48:8080/fhir
+[OK] metadata
+[INFO] Listando ValueSet…
+[OK] ValueSet listados: 0
+[FAIL] Se encontraron 0 ValueSet(s); se requieren exactamente 24.
+[OK] metadata en http://186.179.201.48:8080/fhir
+[INFO] Listando ConceptMap (SIN filtros)…
+[OK] ConceptMaps listados: 0
+[INFO] ConceptMaps con name iniciando en 'VS': 0
+--------------------------------------------
+[RESUMEN] VS traducidos: OK=0 | WARN=0 | FAIL=0
+
+✅ Revisión completada para SURINAME
