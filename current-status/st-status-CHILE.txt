@@ -1,6 +1,6 @@
 =====================================================
  Reporte de estado SNOWSTORM - FHIR - País: CHILE
- Fecha: Thu Oct 16 06:35:03 PM UTC 2025
+ Fecha: Fri Oct 17 12:04:01 PM UTC 2025
 =====================================================
 
 [INFO] Base: https://hcsba-api.hcsba.cl/terminologico/1/fhir
