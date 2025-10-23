@@ -1,21 +1,10 @@
 =====================================================
  Reporte de estado SNOWSTORM - FHIR - País: HONDURAS
- Fecha: Mon Oct 20 12:05:07 PM UTC 2025
+ Fecha: Thu Oct 23 02:13:22 PM UTC 2025
 =====================================================
 
 [INFO] Base: http://181.210.30.59:8180/fhir
-[OK] CodeSystem SNOMED presente (http://snomed.info/sct)
-[OK] CodeSystem CIE10 presente (http://hl7.org/fhir/sid/icd-10)
-[OK] CodeSystem CIE11 presente (http://id.who.int/icd/release/11/mms)
-[OK] CodeSystem LOCAL presente (http://node-acme.org/terminology)
-[OK] CodeSystem RACSEL presente (http://racsel.org/connectathon)
-[OK] CodeSystem PREQUAL presente (http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIDs)
-[OK] $lookup SNOMED (96309000)
-[OK] $lookup CIE10 (E79.0)
-[OK] $lookup CIE11 (XM0N24)
-[OK] $lookup LOCAL (A02BC0100)
-[OK] $lookup RACSEL (A10)
-[FAIL] $lookup PREQUAL (http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIDs|PolioVaccineInactivatedIProduct8b13b5fcf5e9268b345775be7c3f077c)
+[FAIL] CodeSystem SNOMED NO encontrado (http://snomed.info/sct)
 [INFO] Base: http://181.210.30.59:8180/fhir
 [OK] metadata
 [INFO] Listando ValueSet…
@@ -24,90 +13,97 @@
 [INFO] Expandiendo cada ValueSet (≥ 1 concepto)…
 [OK] http://racsel.org/fhir/ValueSet/local-vs
 [OK] http://racsel.org/fhir/ValueSet/racsel-vs
-[OK] http://racsel.org/fhir/ValueSet/antecedentes-personales-vs
-[OK] http://racsel.org/fhir/ValueSet/procedimientos-vs
+[FAIL] http://racsel.org/fhir/ValueSet/antecedentes-personales-vs -> respuesta inválida
+[FAIL] http://racsel.org/fhir/ValueSet/procedimientos-vs -> respuesta inválida
 [OK] http://racsel.org/fhir/ValueSet/medicacion-local-vs
-[OK] http://racsel.org/fhir/ValueSet/medicacion-vs
+[FAIL] http://racsel.org/fhir/ValueSet/medicacion-vs -> respuesta inválida
 [OK] http://racsel.org/fhir/ValueSet/procedimientos-local-vs
 [OK] http://racsel.org/fhir/ValueSet/procedimientos-racsel-vs
 [OK] http://racsel.org/fhir/ValueSet/medicacion-racsel-vs
 [OK] http://racsel.org/fhir/ValueSet/alergias-local-vs
-[OK] http://racsel.org/fhir/ValueSet/alergias-vs
-[OK] http://racsel.org/fhir/ValueSet/diagnosticos-vs
+[FAIL] http://racsel.org/fhir/ValueSet/alergias-vs -> respuesta inválida
+[FAIL] http://racsel.org/fhir/ValueSet/diagnosticos-vs -> respuesta inválida
 [OK] http://racsel.org/fhir/ValueSet/antecedentes-personales-local-vs
-[OK] http://racsel.org/fhir/ValueSet/vacunas-vs
+[FAIL] http://racsel.org/fhir/ValueSet/vacunas-vs -> respuesta inválida
 [OK] http://racsel.org/fhir/ValueSet/diagnosticos-local-vs
 [OK] http://racsel.org/fhir/ValueSet/vacunas-local-vs
 [OK] http://racsel.org/fhir/ValueSet/antecedentes-personales-racsel-vs
 [OK] http://racsel.org/fhir/ValueSet/diagnosticos-racsel-vs
 [OK] http://racsel.org/fhir/ValueSet/alergias-racsel-vs
 [OK] http://racsel.org/fhir/ValueSet/vacunas-racsel-vs
-[OK] http://racsel.org/fhir/ValueSet/snomed-vs
+[FAIL] http://racsel.org/fhir/ValueSet/snomed-vs -> respuesta inválida
 [OK] http://racsel.org/fhir/ValueSet/cie10-vs
 [OK] http://racsel.org/fhir/ValueSet/cie11-vs
 [OK] http://racsel.org/fhir/ValueSet/prequal-vs
 --------------------------------------------
-[RESUMEN] ValueSet totales: 24 | OK: 24 | FAIL: 0
-[OK] Todos los ValueSet (24) expanden con ≥ 1 concepto
+[RESUMEN] ValueSet totales: 24 | OK: 17 | FAIL: 7
+[DETALLE] ValueSet que fallaron:
+http://racsel.org/fhir/ValueSet/antecedentes-personales-vs
+http://racsel.org/fhir/ValueSet/procedimientos-vs
+http://racsel.org/fhir/ValueSet/medicacion-vs
+http://racsel.org/fhir/ValueSet/alergias-vs
+http://racsel.org/fhir/ValueSet/diagnosticos-vs
+http://racsel.org/fhir/ValueSet/vacunas-vs
+http://racsel.org/fhir/ValueSet/snomed-vs
 [OK] metadata en http://181.210.30.59:8180/fhir
 [INFO] Listando ConceptMap (SIN filtros)…
 [OK] ConceptMaps listados: 74
 [INFO] ConceptMaps con name iniciando en 'VS': 54
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-antecedentes-local-to-racsel&code=A15.9&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/antecedentes-personales-local-vs&target=http://racsel.org/fhir/ValueSet/antecedentes-personales-racsel-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-antecedentes-racsel-to-local&code=H1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/antecedentes-personales-racsel-vs&target=http://racsel.org/fhir/ValueSet/antecedentes-personales-local-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-antecedentes-local-to-snomed&code=A15.9&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/antecedentes-personales-local-vs&target=http://racsel.org/fhir/ValueSet/antecedentes-personales-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-antecedentes-snomed-to-racsel&code=84757009&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/antecedentes-personales-vs&target=http://racsel.org/fhir/ValueSet/antecedentes-personales-racsel-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-antecedentes-snomed-to-local&code=84757009&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/antecedentes-personales-vs&target=http://racsel.org/fhir/ValueSet/antecedentes-personales-local-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-antecedentes-racsel-to-snomed&code=H1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/antecedentes-personales-racsel-vs&target=http://racsel.org/fhir/ValueSet/antecedentes-personales-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-diagnosticos-racsel-to-local&code=D1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/diagnosticos-racsel-vs&target=http://racsel.org/fhir/ValueSet/diagnosticos-local-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/antecedentes-personales-vs&_count=1
+[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-antecedentes-local-to-snomed&code=A15.9&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/antecedentes-personales-local-vs&target=http://racsel.org/fhir/ValueSet/antecedentes-personales-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/antecedentes-personales-vs&_count=1
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-diagnosticos-local-to-racsel&code=C50.9&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/diagnosticos-local-vs&target=http://racsel.org/fhir/ValueSet/diagnosticos-racsel-vs
+[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-diagnosticos-racsel-to-local&code=D1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/diagnosticos-racsel-vs&target=http://racsel.org/fhir/ValueSet/diagnosticos-local-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-diagnosticos-local-to-snomed&code=C50.9&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/diagnosticos-local-vs&target=http://racsel.org/fhir/ValueSet/diagnosticos-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-prequal-to-local&code=PolioVaccineOralOPVBivalProduct26e6c50dfb385f223a12238dc6e202dd&system=http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIDs&source=http://racsel.org/fhir/ValueSet/prequal-vs&target=http://racsel.org/fhir/ValueSet/vacunas-local-vs
 [WARN] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-local-to-prequal&code=V04CF01&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/vacunas-local-vs&target=http://racsel.org/fhir/ValueSet/prequal-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-prequal-to-cie11&code=PolioVaccineOralOPVBivalProduct26e6c50dfb385f223a12238dc6e202dd&system=http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIDs&source=http://racsel.org/fhir/ValueSet/prequal-vs&target=http://racsel.org/fhir/ValueSet/cie11-vs
+[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-prequal-to-local&code=PolioVaccineOralOPVBivalProduct26e6c50dfb385f223a12238dc6e202dd&system=http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIDs&source=http://racsel.org/fhir/ValueSet/prequal-vs&target=http://racsel.org/fhir/ValueSet/vacunas-local-vs
 [FAIL] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-cie11-to-prequal&code=XM0N24&system=http://id.who.int/icd/release/11/mms&source=http://racsel.org/fhir/ValueSet/cie11-vs&target=http://racsel.org/fhir/ValueSet/prequal-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-local-to-cie11&code=V04CF01&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/vacunas-local-vs&target=http://racsel.org/fhir/ValueSet/cie11-vs
+[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-prequal-to-cie11&code=PolioVaccineOralOPVBivalProduct26e6c50dfb385f223a12238dc6e202dd&system=http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIDs&source=http://racsel.org/fhir/ValueSet/prequal-vs&target=http://racsel.org/fhir/ValueSet/cie11-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-cie11-to-local&code=XM0N24&system=http://id.who.int/icd/release/11/mms&source=http://racsel.org/fhir/ValueSet/cie11-vs&target=http://racsel.org/fhir/ValueSet/vacunas-local-vs
+[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-local-to-cie11&code=V04CF01&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/vacunas-local-vs&target=http://racsel.org/fhir/ValueSet/cie11-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-racsel-to-snomed&code=V1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/vacunas-racsel-vs&target=http://racsel.org/fhir/ValueSet/vacunas-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-snomed-to-racsel&code=871919004&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/vacunas-vs&target=http://racsel.org/fhir/ValueSet/vacunas-racsel-vs
-[FAIL] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-snomed-to-prequal&code=96309000&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/snomed-vs&target=http://racsel.org/fhir/ValueSet/prequal-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/vacunas-vs&_count=1
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/snomed-vs&_count=1
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-procedimientos-local-to-racsel&code=I83.2&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/procedimientos-local-vs&target=http://racsel.org/fhir/ValueSet/procedimientos-racsel-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-procedimientos-racsel-to-local&code=P1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/procedimientos-racsel-vs&target=http://racsel.org/fhir/ValueSet/procedimientos-local-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-procedimientos-local-to-snomed&code=I83.2&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/procedimientos-local-vs&target=http://racsel.org/fhir/ValueSet/procedimientos-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-procedimientos-snomed-to-local&code=86273004&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/procedimientos-vs&target=http://racsel.org/fhir/ValueSet/procedimientos-local-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-procedimientos-racsel-to-snomed&code=P1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/procedimientos-racsel-vs&target=http://racsel.org/fhir/ValueSet/procedimientos-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/procedimientos-vs&_count=1
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-medicacion-local-to-snomed&code=A02BA0200&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/medicacion-local-vs&target=http://racsel.org/fhir/ValueSet/medicacion-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-medicacion-snomed-to-local&code=96309000&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/medicacion-vs&target=http://racsel.org/fhir/ValueSet/medicacion-local-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-medicacion-snomed-to-racsel&code=96309000&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/medicacion-vs&target=http://racsel.org/fhir/ValueSet/medicacion-racsel-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/medicacion-vs&_count=1
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-medicacion-racsel-to-snomed&code=M1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/medicacion-racsel-vs&target=http://racsel.org/fhir/ValueSet/medicacion-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-local-global-to-racsel-global&code=A02BA0200&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/local-vs&target=http://racsel.org/fhir/ValueSet/racsel-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/medicacion-vs&_count=1
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-racsel-global-to-local-global&code=A1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/racsel-vs&target=http://racsel.org/fhir/ValueSet/local-vs
+[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-local-global-to-racsel-global&code=A02BA0200&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/local-vs&target=http://racsel.org/fhir/ValueSet/racsel-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-cie11-global-to-snomed-global&code=XM0N24&system=http://id.who.int/icd/release/11/mms&source=http://racsel.org/fhir/ValueSet/cie11-vs&target=http://racsel.org/fhir/ValueSet/snomed-vs
-[WARN] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-snomed-global-to-cie11-global&code=96309000&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/snomed-vs&target=http://racsel.org/fhir/ValueSet/cie11-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/snomed-vs&_count=1
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-local-global-to-snomed-global&code=A02BA0200&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/local-vs&target=http://racsel.org/fhir/ValueSet/snomed-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-snomed-global-to-local-global&code=96309000&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/snomed-vs&target=http://racsel.org/fhir/ValueSet/local-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/snomed-vs&_count=1
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-cie10-global-to-snomed-global&code=A15.0&system=http://hl7.org/fhir/sid/icd-10&source=http://racsel.org/fhir/ValueSet/cie10-vs&target=http://racsel.org/fhir/ValueSet/snomed-vs
-[WARN] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-snomed-global-to-cie10-global&code=96309000&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/snomed-vs&target=http://racsel.org/fhir/ValueSet/cie10-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/snomed-vs&_count=1
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-diagnosticos-local-to-cie10&code=C50.9&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/diagnosticos-local-vs&target=http://racsel.org/fhir/ValueSet/cie10-vs
 [WARN] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-diagnosticos-cie10-to-local&code=A15.0&system=http://hl7.org/fhir/sid/icd-10&source=http://racsel.org/fhir/ValueSet/cie10-vs&target=http://racsel.org/fhir/ValueSet/diagnosticos-local-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/diagnosticos-vs&_count=1
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/diagnosticos-vs&_count=1
+[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-diagnosticos-racsel-to-snomed&code=D1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/diagnosticos-racsel-vs&target=http://racsel.org/fhir/ValueSet/diagnosticos-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-local-to-racsel&code=V04CF01&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/vacunas-local-vs&target=http://racsel.org/fhir/ValueSet/vacunas-racsel-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-racsel-to-local&code=V1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/vacunas-racsel-vs&target=http://racsel.org/fhir/ValueSet/vacunas-local-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-diagnosticos-snomed-to-local&code=91175000&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/diagnosticos-vs&target=http://racsel.org/fhir/ValueSet/diagnosticos-local-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-diagnosticos-racsel-to-snomed&code=D1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/diagnosticos-racsel-vs&target=http://racsel.org/fhir/ValueSet/diagnosticos-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-diagnosticos-snomed-to-racsel&code=91175000&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/diagnosticos-vs&target=http://racsel.org/fhir/ValueSet/diagnosticos-racsel-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/vacunas-vs&_count=1
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-local-to-snomed&code=V04CF01&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/vacunas-local-vs&target=http://racsel.org/fhir/ValueSet/vacunas-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-snomed-to-local&code=871919004&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/vacunas-vs&target=http://racsel.org/fhir/ValueSet/vacunas-local-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-prequal-to-snomed&code=PolioVaccineOralOPVBivalProduct26e6c50dfb385f223a12238dc6e202dd&system=http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIDs&source=http://racsel.org/fhir/ValueSet/prequal-vs&target=http://racsel.org/fhir/ValueSet/snomed-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-medicacion-local-to-racsel&code=A02BA0200&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/medicacion-local-vs&target=http://racsel.org/fhir/ValueSet/medicacion-racsel-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-medicacion-racsel-to-local&code=M1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/medicacion-racsel-vs&target=http://racsel.org/fhir/ValueSet/medicacion-local-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-alergias-racsel-to-local&code=A1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/alergias-racsel-vs&target=http://racsel.org/fhir/ValueSet/alergias-local-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-alergias-local-to-racsel&code=K90.0&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/alergias-local-vs&target=http://racsel.org/fhir/ValueSet/alergias-racsel-vs
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-alergias-local-to-snomed&code=K90.0&system=http://node-acme.org/terminology&source=http://racsel.org/fhir/ValueSet/alergias-local-vs&target=http://racsel.org/fhir/ValueSet/alergias-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-alergias-snomed-to-racsel&code=91939003&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/alergias-vs&target=http://racsel.org/fhir/ValueSet/alergias-racsel-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-alergias-snomed-to-local&code=91939003&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/alergias-vs&target=http://racsel.org/fhir/ValueSet/alergias-local-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/alergias-vs&_count=1
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/alergias-vs&_count=1
 [OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-alergias-racsel-to-snomed&code=A1&system=http://racsel.org/connectathon&source=http://racsel.org/fhir/ValueSet/alergias-racsel-vs&target=http://racsel.org/fhir/ValueSet/alergias-vs
-[OK] GET http://181.210.30.59:8180/fhir/ConceptMap/$translate?url=http://racsel.org/fhir/ConceptMap/vs-procedimientos-snomed-to-racsel&code=86273004&system=http://snomed.info/sct&source=http://racsel.org/fhir/ValueSet/procedimientos-vs&target=http://racsel.org/fhir/ValueSet/procedimientos-racsel-vs
+[FAIL] GET http://181.210.30.59:8180/fhir/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/procedimientos-vs&_count=1
 --------------------------------------------
-[RESUMEN] VS traducidos: OK=48 | WARN=4 | FAIL=2
+[RESUMEN] VS traducidos: OK=35 | WARN=2 | FAIL=17
 
 ✅ Revisión completada para HONDURAS

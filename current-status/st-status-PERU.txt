@@ -1,6 +1,6 @@
 =====================================================
  Reporte de estado SNOWSTORM - FHIR - País: PERU
- Fecha: Mon Oct 20 12:05:08 PM UTC 2025
+ Fecha: Thu Oct 23 02:13:22 PM UTC 2025
 =====================================================
 
 [INFO] Base: https://dyakuter.minsa.gob.pe/fhir
